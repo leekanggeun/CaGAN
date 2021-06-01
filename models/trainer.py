@@ -3,7 +3,7 @@ from tensorflow.keras import layers
 from tensorflow.keras import Model
 import tensorflow_addons as tfa
 import sys
-from ..models.network import Generator, Discriminator
+from network import Generator, Discriminator
 from ..utils.metrics import PSNR, SSIM, Custom_SSIM_Loss
 from ..utils.scheduler import CustomSchedule
 
