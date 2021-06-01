@@ -3,8 +3,8 @@ import tensorflow_addons as tfa
 from tensorflow.keras import layers
 from tensorflow.keras import Model
 import sys
-sys.path.append('/home/Alexandrite/leekanggeun/CVPR/CaGAN')
-from utils.attention_module import CA, CCSA
+
+from ..utils.attention_module import CA, CCSA
 
 class FEN(Model):
     def __init__(self, num_filters, initializer='he_normal'):
