@@ -1,7 +1,7 @@
 import argparse
 
 def parse_args():
-    desc = "Official Tensorflow 2.5 implementation of ISCL by Kanggeun Lee"
+    desc = "Unofficial Tensorflow 2.5 implementation of CaGAN by Kanggeun Lee"
     parser = argparse.ArgumentParser(description=desc)
     parser.add_argument('--epoch', type=int, default=100, help='The number of epochs to run')
     parser.add_argument('--iter', type=int, default=400, help='The number of iters to run')
